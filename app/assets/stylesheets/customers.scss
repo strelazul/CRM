@@ -1,0 +1,30 @@
+// Place all the styles related to the Customers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+img {
+  display: block;
+  width: 100px;
+  margin: auto;
+}
+
+div.card {
+  flex-grow: 1;
+  flex-basis: auto;
+  border: 2px solid grey;
+  max-width: 20%;
+  margin: 2px;
+  padding: 2px;
+}
+
+div.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.emph {
+  font-weight: 600;
+}
+
+p {
+  word-wrap: break-word;
+}

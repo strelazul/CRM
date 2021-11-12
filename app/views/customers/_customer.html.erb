@@ -1,9 +1,9 @@
-<div>
+<div class="card">
   <h2><%= customer.full_name %></h2>
   <p>
     <%= image_tag url_for(customer.image) %><br>
-    Phone: <%= customer.phone_number %><br>
-    Email: <%= customer.email_address %><br>
+    <span class="emph">Phone:</span> <%= customer.phone_number %><br>
+    <span class="emph">Email:</span> <%= customer.email_address %><br>
     Notes: <%= customer.notes %>
   </p>
 </div>
